@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  min-height: 100vh;
+}
+
+.proyecto-unico {
+  background-color: #521515;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proyecto-card {
+  background-color: #6b1e1e;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  max-width: 900px;
+}
+
+.proyecto-card h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.imagenes-proyecto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.imagenes-proyecto a img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.imagenes-proyecto a img:hover {
+  transform: scale(1.05);
+}

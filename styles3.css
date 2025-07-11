@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+.fondo {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #521515;
+  overflow: hidden;
+}
+
+.cuadro {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  animation: flotar 10s infinite ease-in-out;
+}
+
+@keyframes flotar {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-120vh) scale(1.5);
+    opacity: 0;
+  }
+}
+
