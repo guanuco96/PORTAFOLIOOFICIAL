@@ -272,10 +272,10 @@ button:hover {
   background-color: #6b1e1e;
   color: white;
   text-decoration: none;
-  padding: 70px 80px; /* ← más padding */
-  border-radius: 8px;  /* ← bordes un poco más redondeados */
+  padding: 70px 80px; 
+  border-radius: 8px;  
   font-family: 'Segoe UI', sans-serif;
-  font-size: 2em;   /* ← texto un poco más grande */
+  font-size: 2em;  
   font-weight: 600;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s, transform 0.2s;
